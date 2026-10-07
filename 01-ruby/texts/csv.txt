@@ -1,0 +1,6 @@
+animal, size, color
+lion, big, yellow
+dog, medium, varies
+goldfish, small, orange
+shark, big, gray
+frog, small, green
