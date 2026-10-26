@@ -9,7 +9,8 @@ smallest(Small, [Head|Tail]) :-
 % problem: if you have duplicate numbers, the duplicates are removed
 do_sort([], []).
 do_sort(List, Sorted) :-
-		smallest(SortedHead, List), 		
+		smallest(SortedHead, List),
 		subtract(List, [SortedHead], Rest), 
 		do_sort(Rest, SortedRest),
 		append([SortedHead], SortedRest, Sorted).
+
